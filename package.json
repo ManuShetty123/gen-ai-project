@@ -4,7 +4,7 @@
   "description": "Node.js app with GitHub Actions CI/CD to EC2",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node index.js",
     "dev": "nodemon src/index.js",
     "test": "jest --testEnvironment=node",
     "lint": "eslint .",
