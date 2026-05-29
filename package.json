@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "test": "jest --testEnvironment=node",
-    "lint": "eslint src/**/*.js",
+    "lint": "eslint .",
     "build": "echo 'No build step needed for plain JS'"
   },
   "dependencies": {
